@@ -1,0 +1,41 @@
+.table_container_outer
+{
+    margin: 0 12em;
+}
+
+.table_container_inner
+{
+    display: flex;
+    justify-content: center;
+}
+
+.table
+{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.thead
+{
+    text-align: center;
+    background-color: tomato;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.header_row th:first-child
+{    
+    border-top-left-radius: 10px;
+}
+
+.header_row th:last-child
+{
+    border-top-right-radius: 10px;
+}
+
+.table_container_inner
+{
+    border: solid 1px lightgray;
+    min-height: 10rem;
+    border-radius: 10px;
+}

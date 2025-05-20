@@ -1,0 +1,40 @@
+.search_form
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: tomato;
+    padding: 1em 5em;
+    margin: 0 12em;
+    border-radius: 0.5em;
+}
+
+.text_input
+{
+    width: 75%;
+    align-self: center;
+    font-size: 2em;
+    text-align: center;
+    border-radius: 1em;
+    border: none;
+}
+
+.text_input:focus
+{
+    outline: none;
+}
+
+.search_icon 
+{
+  background-image: url('./assets/search_icon.png');
+  background-color: crimson;
+  background-size: cover;
+  align-self: center;
+  width: 3em;
+  height: 3em;
+  border-radius: 1.5em;
+  display: block;
+  position: relative;
+  left: -2em;
+  cursor: pointer;
+}
